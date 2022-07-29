@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(102, 165, 118);
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: darkslategray;
+    height: 60px;
+    align-items: center;
+    
+}
+nav ul li{
+    padding: 0px 12px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.brand img{
+    width: 50px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 53vh;
+    background-color: black;
+    color: white;
+    /* font-family: 'Varela Round', sans-serif; */
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg.jpg);
+}
+
+.bottom{
+    position: sticky;
+    /* height: 100px; */
+    background-color: aqua;
+    bottom: 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+    
+}
+.icons i{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 80vw;
+    text-align: center;
+}
